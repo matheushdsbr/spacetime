@@ -91,6 +91,13 @@ module.exports = {
       fontSize: {
         '5xl': '2.5rem',
       },
+
+      screens: {
+        mobile: '475px',
+        tablet: '640px',
+        laptop: '1024px',
+        desktop: '1280px',
+      },
     },
   },
   plugins: [],

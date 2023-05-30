@@ -6,7 +6,7 @@ import nlwLogo from '../assets/nlw-spacetime-logo.svg'
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen grid-cols-2">
+    <main className="grid min-h-screen grid-cols-1 laptop:grid-cols-2">
       {/* Left */}
       <div className="relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-stars.svg)] bg-cover px-28 py-16">
         {/* Blur */}
